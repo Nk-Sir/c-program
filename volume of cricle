@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+printf("Area of cricle \n ");
+int r;
+printf("enter the radius : ");
+scanf("%d" , &r);
+float v= 3.14*r*r;
+printf("The area of cricle : %f" , v);
+
+    return 0;
+}
