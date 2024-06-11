@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(){
+int p;
+printf("\nEnter your physics mark :  ");
+scanf("%d" , &p);
+int c;
+printf("\nEnter your chemistry mark :  ");
+scanf("%d" , &c);
+int m;
+printf("\nEnter your maths mark :  ");
+scanf("%d" , &m);
+int e;
+printf("\nEnter your english mark :  ");
+scanf("%d" , &e);
+int h;
+printf("\nEnter your hindi mark :  ");
+scanf("%d" , &h);
+
+
+float sum=c+m+e+h+p;
+
+printf(" this is your perecntage : %f" , sum/5);
+
+
+
+    return 0;
+}
